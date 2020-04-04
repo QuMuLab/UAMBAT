@@ -1,0 +1,25 @@
+To convert an input GDL file to the ground format used by the
+UAMBAT project, use the following command:
+
+./ground-gdl.sh <input lifted file> <output ground file>
+
+--------------------
+
+To setup the project, follow the following steps:
+
+1. Install the 'opam' package
+
+2. Initialize with the following:
+opam init
+
+3. Install the neccessary packages:
+opam install ocamlfind
+opam install menhir
+
+4. Clone the GaDeLaC repository:
+git clone git@bitbucket.org:Abdallah/gadelac.git
+
+5. Make the GaDeLaC project:
+cd gadelac
+make
+
