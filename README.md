@@ -21,3 +21,5 @@ The project is broken down into the following directories:
 * **adapters**: Code for the various centralized representation languages (e.g., d-DNNF)
 * **endpoints**: Code for the various input languages (e.g., PDDL, GDL, SitCalc, etc)
 * **examples**: Various example files we use to test the systems.
+
+![uambat logo](logo.png)
